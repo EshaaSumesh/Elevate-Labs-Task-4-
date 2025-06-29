@@ -5,7 +5,7 @@ Configure and test basic firewall rules to allow or block traffic using **Window
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Windows Defender Firewall (Advanced Settings)
 - Command Prompt
 - Telnet Client (enabled via DISM)
@@ -42,7 +42,7 @@ dism /online /Enable-Feature /FeatureName:TelnetClient
 The operation completed successfully.
 ```
 
-###5. Tested the Firewall Rule
+### 5. Tested the Firewall Rule
 After enabling the Telnet Client, opened Command Prompt
 
 Ran the command:
@@ -53,7 +53,7 @@ Connecting To 127.0.0.1...Could not open connection to the host on port 23: Conn
 
 This confirms that the firewall successfully blocked inbound traffic on port 23, simulating the protection against Telnet-based connections.
 
-###6. Removed the Test Rule
+### 6. Removed the Test Rule
 Returned to Inbound Rules
 
 Located Block Telnet Port 23
