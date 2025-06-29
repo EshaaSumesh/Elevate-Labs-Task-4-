@@ -12,7 +12,7 @@ Configure and test basic firewall rules to allow or block traffic using **Window
 
 ---
 
-## 📋 Steps Performed
+##  Steps Performed
 
 ### 1. Opened Firewall Configuration Tool
 - Opened Run dialog (`Windows + R`)
