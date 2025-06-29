@@ -40,13 +40,16 @@ Telnet Client was not installed by default, so the following command was used in
 ```cmd
 dism /online /Enable-Feature /FeatureName:TelnetClient
 The operation completed successfully.
+```
 
 ###5. Tested the Firewall Rule
 After enabling the Telnet Client, opened Command Prompt
 
 Ran the command:
-
+```cmd
 Connecting To 127.0.0.1...Could not open connection to the host on port 23: Connect failed
+```
+
 This confirms that the firewall successfully blocked inbound traffic on port 23, simulating the protection against Telnet-based connections.
 
 ###6. Removed the Test Rule
