@@ -47,6 +47,7 @@ After enabling the Telnet Client, opened Command Prompt
 
 Ran the command:
 ```cmd
+telnet 127.0.0.1
 Connecting To 127.0.0.1...Could not open connection to the host on port 23: Connect failed
 ```
 
